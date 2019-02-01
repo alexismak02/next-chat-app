@@ -22,7 +22,7 @@ export default class Conversation extends React.Component {
                         <List.Content style={{float: myUser.username===chat.username?'right':'left',clear:'both'}}>
                                 <Image avatar src={`https://api.adorable.io/avatars/150/${chat.username}.png`}/><strong>{chat.username}</strong>
                             <List.Description style={{background: 'white'}}>
-                                <pre style={{whiteSpace: 'pre-wrap', overflow: 'hidden', display: 'inline-block', borderRadius: 2, boxShadow: '3 3 #888888'}}>{chat.message}</pre>
+                                <pre style={{whiteSpace: 'pre-wrap', overflow: 'hidden', display: 'inline-block', borderRadius: 2,}}>{chat.message}</pre>
                                 <br/>
                             </List.Description>
                             <em><small>{chat.timestamp}</small></em>

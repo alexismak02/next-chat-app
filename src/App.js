@@ -89,10 +89,10 @@ class App extends Component {
             </Segment>
           </Grid.Column>
           <Grid.Column style={{width:"80vw", height:"100vh"}}>
-            <Segment style={{height:"85vh", backgroundImage: `url(${doodle})`, overflow:"scroll"}}>
+            <Segment style={{height:"90vh", backgroundImage: `url(${doodle})`, overflow:"scroll"}}>
               <Conversation chatHistory={chatHistory} myUser={myUser}/>
             </Segment>
-            <Segment style={{height:"15vh", backgroundColor: "rgb(192,192,192,0.5)"}}>
+            <Segment style={{height:"10vh"}}>
               <Chatbox textInput={textInput} handleInput={this.handleInput} handleKeyPress={this.handleKeyPress} handleSubmit={this.handleSubmit}/>
             </Segment>
           </Grid.Column>
